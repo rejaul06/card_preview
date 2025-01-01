@@ -1,0 +1,130 @@
+:root {
+    --primaryfont: "Figtree", serif;
+
+    --yellowColor: hsl(47, 88%, 63%);
+    --whiteColor: hsl(0, 0%, 100%);
+    --GrayColor: hsl(0, 0%, 42%);
+    /* --GrayColor: hsl(0, 0%, 7%); */
+
+}
+
+*,
+*::after *::before {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    box-sizing: border-box;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html,
+body {
+    height: 100%;
+}
+
+body {
+    font-family: var(--primaryfont);
+    font-weight: 300;
+    background: var(--whiteColor);
+    font-size: 16px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    font-family: var(--primaryfont);
+    font-weight: 800;
+    margin-bottom: 15px;
+}
+
+p {
+    font-weight: 300;
+    margin-bottom: 15px;
+}
+
+img {
+    max-width: 100%;
+    height: auto;
+}
+
+/* .card {
+    width: 510px;
+    display: flex;
+}
+
+.card-img img.desktop{
+
+} */
+.main {
+    width: 100%;
+    height: 100vh;
+    background: var(--yellowColor);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+}
+
+.second {
+    width: 305px;
+    height: 395px;
+    background: var(--whiteColor);
+    border-radius: 8px;
+}
+
+.profile-div {
+    display: flex;
+}
+
+.img-div {
+    margin: 10px;
+}
+
+.img-div img {
+    border-radius: 8px;
+
+}
+
+.content-div h6 {
+    background: var(--yellowColor);
+    display: inline-block;
+    padding: 8px;
+    border-radius: 5px;
+    margin-top: 15px;
+
+}
+
+.content-div {
+    margin-left: 12px;
+    margin-top: -20px;
+}
+
+.content-div p {
+    font-size: 12px;
+    color: var(--GrayColor);
+
+    font-weight: bold;
+}
+
+.profile-div img {
+    width: 30px;
+    height: 30px;
+}
+
+.profile-div p {
+    margin-left: 10px;
+    font-size: 12px;
+    margin-top: 5px;
+    color: black;
+}
